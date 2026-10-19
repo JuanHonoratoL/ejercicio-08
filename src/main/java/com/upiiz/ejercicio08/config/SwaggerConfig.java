@@ -32,7 +32,9 @@ import org.springframework.context.annotation.Configuration;
                 version = "1.0.0"
         ),
         servers = {
-                @Server(description = "Servidor", url = "/"),
+                @Server(description = "Servidor URL relativo", url = "/"),
+                @Server(description = "Servidor URL relativo", url = "https://ejercicio-08-giei.onrender.com/")
+
         }
 )
 public class SwaggerConfig {
