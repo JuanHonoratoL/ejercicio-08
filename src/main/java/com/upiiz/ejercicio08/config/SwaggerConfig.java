@@ -32,8 +32,7 @@ import org.springframework.context.annotation.Configuration;
                 version = "1.0.0"
         ),
         servers = {
-                @Server(description = "Servidor local", url = "http://localhost:8080"),
-                @Server(description = "Servidor de producción", url = "https://api.ejemplo.com")
+                @Server(description = "Servidor", url = "/"),
         }
 )
 public class SwaggerConfig {
